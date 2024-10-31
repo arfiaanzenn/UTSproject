@@ -14,7 +14,7 @@
             android:id="@+id/tvTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Order Food"
+            android:text="Pesanan"
             android:textSize="24sp"
             android:textStyle="bold"
             android:layout_gravity="center_horizontal"
@@ -24,14 +24,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Food Name"
+            android:text="Makanan"
             android:textSize="18sp"
             android:layout_marginBottom="8dp"/>
         <TextView
             android:id="@+id/etFoodName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter food name - Get From List"
+            android:hint="Masukkan Nama Menu"
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
 
@@ -39,14 +39,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Number of Servings"
+            android:text="Jumlah"
             android:textSize="18sp"
             android:layout_marginBottom="8dp"/>
         <EditText
             android:id="@+id/etServings"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter number of servings"
+            android:hint="Jumlah Pesanan"
             android:inputType="number"
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
@@ -55,14 +55,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ordering Name"
+            android:text="Atas Nama"
             android:textSize="18sp"
             android:layout_marginBottom="8dp"/>
         <EditText
             android:id="@+id/etName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Ordering name by"
+            android:hint="Masukkan nama pemesan/pelanggan"
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
 
@@ -71,14 +71,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Additional Notes"
+            android:text="Catatan"
             android:textSize="18sp"
             android:layout_marginBottom="8dp"/>
         <EditText
             android:id="@+id/etNotes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter any additional notes"
+            android:hint="Masukkan catatan tambahan"
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
 
@@ -87,7 +87,7 @@
             android:id="@+id/btnOrder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Place Order"
+            android:text="Pesan Sekarang!"
             android:textColor="@android:color/white"
             android:padding="12dp"/>
 

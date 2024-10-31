@@ -14,7 +14,7 @@
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Order Food"
+        android:text="Rincian Pesanan"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
@@ -22,33 +22,37 @@
 
     <!-- Confirmation Nama Makanan -->
     <TextView
+        android:id="@+id/etconfFood"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Food Name: Batagor"
+        android:text="Pesanan: null"
         android:textSize="18sp"
         android:layout_marginBottom="8dp"/>
 
     <!-- Confirmation Jumlah Porsi -->
     <TextView
+        android:id="@+id/etconfServe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Number of Servings: 2 pax"
+        android:text="Jumlah: 0 bungkus"
         android:textSize="18sp"
         android:layout_marginBottom="8dp"/>
 
     <!-- Confirmation Nama pengorder -->
     <TextView
+        android:id="@+id/etconfUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ordering Name: Usep"
+        android:text="Atas Nama: Udin"
         android:textSize="18sp"
         android:layout_marginBottom="8dp"/>
 
     <!-- Input Catatan Tambahan -->
     <TextView
+        android:id="@+id/etconfaddNotes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Additional Notes: Tidak Pedas"
+        android:text="Catatan: null"
         android:textSize="18sp"
         android:layout_marginBottom="16dp"/>
 
@@ -56,7 +60,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Thanks for your order and please wait for delivering by nearest courier"
+        android:text="Terima Kasih! Silahkan Tunggu Pesanan Tiba!"
         android:textStyle="bold"
         android:textSize="18sp"
         android:layout_marginBottom="8dp"/>
@@ -65,6 +69,8 @@
         android:id="@+id/backtoMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Back to Menu" />
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:text="Kembali ke Menu"/>
 
 </LinearLayout>
